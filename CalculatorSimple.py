@@ -1,6 +1,6 @@
 import numpy as np
 import math
-import tkinker as tk
+import tkinter as tk
 
 def log_with_base(base, number):
     return math.log(number) / math.log(base)
@@ -23,7 +23,7 @@ calc_functions = {
 
 # Ask user for choice
 print("Enter the calculation:")
-string_calc = input() 
+string_calc = input()
 calc = eval(string_calc)
 
 print("Choose the operation:")
